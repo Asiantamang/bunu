@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bunu.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>Paisa dey khana ley</h1>
+            </div>
+            <div class="input">
+                <input type="text" value="" id="inp" placeholder="Search Here ..." onkeyup="myFun()">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </nav>
+
+    </div>
+
+    <div class="main">
+        <div class="text">
+            <h1>Simple & Tasty Recipes</h1>
+        </div>
+        <img src="https://www.pngall.com/wp-content/uploads/2016/05/Burger-PNG-Image.png" alt="">
+    </div>
+
+
+    <table>
+        <tr>
+            <td>
+                <div class="head">
+                    <h1>Our Foods</h1>
+                </div>
+                <div class="crd">
+                    <div class="card">
+                        <img src="https://th.bing.com/th/id/R.00586867b57d87eac35748bc91b1ea0c?rik=jU2xvVm07ZYZ2Q&pid=ImgRaw&r=0"
+                            alt="">
+                        <h2>125 rps only</h2>
+                        <p>
+                            Fried rice is a delicious and popular dish made from cooked rice stir-fried in a wok or
+                            frying pan, typically mixed with a variety of ingredients such as vegetables, eggs, meat,
+                            and sauces. It originated in China, but it has become a staple in many Asian cuisines and is
+                            also enjoyed around the world.</p>
+                        <button>Order Now</button>
+                    </div>
+                    <div class="card">
+                        <img src="https://e7.pngegg.com/pngimages/626/747/png-clipart-coffee-cafe-breakfast-drink-biscuits-coffee-food-breakfast.png"
+                            alt="">
+                        <h2>60 rps only</h2>
+                        <p>Tea and biscuits, also known as tea and cookies in some parts of the world, is a classic and
+                            beloved combination enjoyed by people in many countries.Biscuits or cookies are small,
+                            sweet, baked treats that are often enjoyed as a snack or dessert. They come in a wide
+                            variety of flavors and textures, ranging from crispy to soft and chewyTea and biscuits are
+                            often enjoyed together as a snack or light meal.</p>
+                        <button>Order Now</button>
+                    </div>
+                    <div class="card">
+                        <img src="https://th.bing.com/th/id/OIP.hFZLm98AN7CkJxUpleNk4wHaKL?rs=1&pid=ImgDetMain" alt="">
+                        <h2>180 rps Only</h2>
+                        <p>Golden, crispy potato sticks, deep-fried to perfection, often seasoned with salt, served as
+                            a popular and delicious side dish.</p>
+                        <button>Order Now</button>
+                    </div>
+                </div>
+                <div class="crd">
+                    <div class="card">
+                        <img src="https://www.michelinas.com/wp-content/uploads/2019/11/15166_CrmRigChic.png" alt="">
+                        <h2>110 rps only</h2>
+                        <p>Pasta is a versatile Italian dish made from durum wheat semolina or flour, typically shaped
+                            into various forms and served with sauce.</p>
+                        <button>Order Now</button>
+                    </div>
+                    <div class="card">
+                        <img src="https://th.bing.com/th/id/OIP.oTjmwpP-IzoldRuES05j3AHaDt?rs=1&pid=ImgDetMain" alt="">
+                        <h2>160 rps only</h2>
+                        <p>Pizza is a beloved Italian dish consisting of a round, flattened base of dough topped with
+                            tomato sauce, cheese, and various toppings.</p>
+                        <button>Order Now</button>
+                    </div>
+                    <div class="card">
+                        <img src="https://th.bing.com/th/id/OIP.MIVvqx5OpNWq_BgIlh2-ZAHaE7?rs=1&pid=ImgDetMain" alt="">
+                        <h2>30 rps only</h2>
+                        <p>Cake is a sweet baked dessert made from flour, sugar, eggs, and other ingredients, often
+                            frosted or decorated, and served on special occasions.</p>
+                        <button>Order Now</button>
+                    </div>
+                </div>
+            </td>
+
+
+        </tr>
+    </table>
+    </div>
+    </div>
+</body>
+
+</html>
+
+css
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+   color: #fff;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 33px;
+    box-shadow: 0px 1px 5px 0px  rgb(252, 252, 252);
+}
+.logo h1{
+    font-size: 37px;
+    color: rgb(255, 106, 0);
+    margin-top: -2px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+.main img{
+    width: 33%;
+    margin-top: 33px;
+}
+.main .text{
+    width: 500px;
+    margin-top: 62px;
+}
+
+.crd{
+    display: flex;
+    margin-left: 115px;
+    color: black;
+}
+.crd .card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 11px;
+    color: black;
+    margin-inline: 11px;
+    margin-top: 84px;
+
+}
+.card img{
+    width: 100%;
+}
+.card h2{
+    margin-top: 12px;
+}
+
+.card p{
+    margin-top: 12px;
+}
+
+.card button{
+    margin-top: 25px;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 119, 0);
+    color: white;
+    border-radius: 2px;
+    font-size: 22px;
+    width: 140px;
+    height: 38px;
+}
+
+.head h1{
+    text-align: center;
+    font-size: 44px;
+    margin-top: 53px;
+    margin-left: 22px;
+}
+.btn button{
+    width: 140px;
+    height: 38px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 20px;
+    margin-inline: 11px;
+    background-color: rgb(255, 111, 0);
+}
